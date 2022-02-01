@@ -315,7 +315,7 @@ export default function Magazine() {
                   <div className={styles.exampleText}>{example.text}</div>
                   {/* <span className={styles.excerpt}>... (excerpt end)</span> */}
                 </div>
-                <a href={example.link}>
+                <a target="_blank" rel="noopener noreferrer" href={example.link}>
                   <BookOutline cssClasses={styles.icon} />
                   Read the full piece in the magazine
                 </a>
